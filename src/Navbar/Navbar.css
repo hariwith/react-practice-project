@@ -1,0 +1,13 @@
+.nav-con{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: rgb(26, 26, 88);
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}

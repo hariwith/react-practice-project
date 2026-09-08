@@ -1,0 +1,42 @@
+useEffect(callback,dependencies)
+
+useEffect(()=>{
+    #logic
+},[])
+
+it is known as sideEffect,used to control the components by rerendering whenever there is a change in state 
+it contains two parameters 
+1.Callback -  where the logic is executed
+2.dependencies - 
+
+whenever there is empty dependency(empty array) the program will execute only once if there is no dependency the program will execute again and again whenever there is change in state
+
+useEffect() - mainly used to fetch the data
+
+
+axios  - used to fetch data, it is a third party library, and we can achieve methods of http (Post,get,delete)
+
+to access axios we have to install from npm
+npm i axios
+
+to access axios in code we have to import axios from axios 
+ex: import {axios} from "axios"
+
+note: axios get method will return data 
+
+react-router-dom = standard library used to implement client-side routing in react web apps
+
+to install - npm i react-router-dom
+
+import {BrowserRouter,Router,Route} from "react-router-dom"
+
+note:we have to ensure whole app is wrapped inside browser router
+
+ex : 
+
+routes : used to provide the routing of modules 
+routing module has to wrapped inside Routes
+
+route : used to provide the path and element which is used to redirect or link by setting a path
+
+"/" - home symbol

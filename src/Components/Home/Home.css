@@ -1,0 +1,26 @@
+.home-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+}
+
+.btn-home{
+    a{
+        background-color: rgb(57, 49, 139);
+        border: none;
+        border-radius: 5px;padding: 6px 15px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
