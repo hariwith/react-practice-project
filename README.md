@@ -1,16 +1,54 @@
-# React + Vite
+# React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio-style website built with React and Vite, featuring a Navbar, Home, Projects, and Contact sections.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite
+- React Router DOM
+- Axios
+- ESLint
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive Navbar
+- Home page
+- Project showcase (Cards component)
+- Contact section
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js installed on your machine
+
+### Installation
+
+1. Clone the repository
+   \`\`\`bash
+   git clone https://github.com/hariwith/react-practice-project.git
+   \`\`\`
+2. Navigate into the project folder
+   \`\`\`bash
+   cd your-repo-name
+   \`\`\`
+3. Install dependencies
+   \`\`\`bash
+   npm install
+   \`\`\`
+4. Start the development server
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+
+## Available Scripts
+
+- \`npm run dev\` — start the development server
+- \`npm run build\` — build for production
+- \`npm run preview\` — preview the production build
+- \`npm run lint\` — run ESLint
+
+## Author
+
+Sri Hari KV
