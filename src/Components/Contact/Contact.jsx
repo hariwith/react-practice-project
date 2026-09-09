@@ -16,7 +16,7 @@ const Contact = ({dis,s,n,name}) => {
         
         <div style={{display:inp_dis}} className="inp">
 <h2>Enter your details!!</h2>
-        <input type='text' placeholder='Enter your name' value="" onChange={n} />
+        <input type='text' placeholder='Enter your name' value={name} onChange={n} />
         <input type='email' placeholder='Enter your Email'/>
         <input type='tel' placeholder='Contact' maxLength={10}/>
         <button onClick={()=>s()}> Submit</button>
